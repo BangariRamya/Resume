@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bangari-logo {
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 0;
+    justify-content: space-between;
+    height: 10%;
+    background-color: #eee;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border: tomato 1px solid;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+p {
+    width: 60%;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #7ab6c7, #dce8f0);
+    opacity: 0.8;
+    height: 20vh;
+}
+
+#about {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url('https://media.istockphoto.com/photos/hand-using-laptop-and-press-screen-to-search-browsing-on-the-internet-picture-id1271072224?b=1&k=20&m=1271072224&s=170667a&w=0&h=4BaKdYk3VKJO-smyDBRkX1wNErrgZwCJTaj08a7rZHc=')
+}
+
+#projects {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdlYnNpdGUlMjBmb3IlMjBza2lsbHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+
+#education {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://media.istockphoto.com/photos/white-desk-office-with-laptop-smartphone-and-other-work-supplies-with-picture-id1283506462?b=1&k=20&m=1283506462&s=170667a&w=0&h=CNZMLfz9nQ398KYp8ORE8Q2uYxacGCQEpLznSbLuJgw=');
+}
+
+#skills {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url('https://media.istockphoto.com/photos/web-development-and-web-design-concept-in-dark-blue-background-for-picture-id1291971619?b=1&k=20&m=1291971619&s=170667a&w=0&h=QHnZ92KhqdYO6zj0_dC_RWSsCJo1n_gaQ9XK0kHd7x0=');
+}
+
+#hobbies {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1vGmrFXsKWvxvMbuvu8_geSJMBYX0ZOMJ9Q&usqp=CAU');
+}
+
+#contact_me {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLvp6wQIQihv51VgbXJhnIiiXICGqvRRWNhA&usqp=CAU');
+    height: 60vh;
+}
+
+section a {
+    font-weight: bold;
+}
+
+section font {
+    font-weight: bold;
+}
